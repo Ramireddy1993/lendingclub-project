@@ -1,0 +1,34 @@
+{
+	"name": "ds_sql_orders",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_database",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "orderid",
+				"type": "varchar"
+			},
+			{
+				"name": "orderdate",
+				"type": "date"
+			},
+			{
+				"name": "cust_id",
+				"type": "varchar"
+			},
+			{
+				"name": "orderstatus",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "orders"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

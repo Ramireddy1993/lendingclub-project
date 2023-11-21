@@ -1,0 +1,9 @@
+{
+	"name": "sales-project-df123",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0ce534ff-9916-454a-a6e7-ba580e62bf47",
+		"tenantId": "25d6f214-72a0-4283-b2a9-6b4f10b50f8b"
+	}
+}
